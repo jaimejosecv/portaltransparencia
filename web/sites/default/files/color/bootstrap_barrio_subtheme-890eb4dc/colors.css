@@ -1,0 +1,105 @@
+/* ---------- Color Module Styles ----------- */
+
+body {
+  color: #3b3b3b;
+  background: #06457a;
+}
+
+#page,
+#main-wrapper,
+.region-primary-menu .menu-item a.is-active,
+.region-primary-menu .menu-item--active-trail a {
+  background: #ffffff;
+}
+
+.tabs ul.primary li a.is-active {
+  background-color: #ffffff;
+}
+
+.tabs ul.primary li.is-active a {
+  background-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+#navbar-top {
+  background-color: #06457a;
+}
+
+#navbar-main {
+  background-color: #ffffff;
+}
+
+a,
+.link {
+  color: #3b3b3b;
+}
+
+a:hover,
+a:focus,
+.link:hover,
+.link:focus {
+  color: #7a3636;
+}
+
+a:active,
+.link:active {
+  color: #b64343;
+}
+
+.page-item.active .page-link {
+  background-color: #3b3b3b;
+  border-color: #3b3b3b;
+}
+
+.page-link,
+.page-link:hover {
+  color: #3b3b3b;
+}
+
+.sidebar .block {
+  background-color: #06457a;
+  border-color: #06457a;
+}
+
+.btn-primary {
+  background-color: #06457a;
+  border-color: #06457a;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #06457a;
+}
+
+.site-footer {
+  background: #06457a;
+}
+
+.region-header,
+.region-header a,
+.region-header li a.is-active,
+.region-header .site-branding__text,
+.region-header .site-branding,
+.region-header .site-branding__text a,
+.region-header .site-branding a,
+.region-secondary-menu .menu-item a,
+.region-secondary-menu .menu-item a.is-active {
+  color: #06457a;
+}
+
+
+/* ---------- Color Form ----------- */
+
+[dir="rtl"] .color-form .color-palette {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+[dir="rtl"] .color-form .form-item label {
+  float: right;
+}
+
+[dir="rtl"] .color-form .color-palette .lock {
+  right: -20px;
+  left: 0;
+}

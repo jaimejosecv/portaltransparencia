@@ -1,0 +1,12 @@
+name: 'Simple megamenu bonus'
+type: module
+description: Enhancements for the wonderful simple_megamenu module.
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - simple_megamenu:simple_megamenu
+
+# Information added by Drupal.org packaging script on 2020-06-08
+version: '8.x-1.0-rc0'
+project: 'simple_megamenu_bonus'
+datestamp: 1591636424
